@@ -1,4 +1,4 @@
-torch==1.7.0
+torch
 transformers==4.12.5
 lightgbm==3.2.99
 scikit-learn==0.23.1
