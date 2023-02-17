@@ -190,11 +190,11 @@ def main(
     train_dataset, 
     val_dataset, 
     compute_metrics, 
-    stop, 
-    batch, 
-    lr, 
-    epoch, 
-    fold_index
+    stop:int=3, 
+    batch:int=16, 
+    lr:float=1e-5, 
+    epoch:int=5, 
+    fold_index:int=0
 ):
     args = TrainingArguments(run_name = f'fold_{fold_index}',
                              output_dir= f"fold_{fold_index}",                      # 모델저장경로
