@@ -1,5 +1,5 @@
 torch
-transformers==4.12.5
+transformers==4.30.0
 lightgbm==3.2.99
 scikit-learn==0.23.1
 numba==0.50.1
